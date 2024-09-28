@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.folder {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(216, 214, 214);
+  padding: 5px;
+}
+
+.folder__btn__wrap {
+  display: flex;
+  gap: 10px;
+}
+
+.folder__btn__wrap button {
+  padding: 0 5px;
+}
+
+.file,
+.folder__cont {
+  padding: 10px 0 0 10px;
+}
+
+.folder__input {
+  margin: 10px 0 0 10px;
+}

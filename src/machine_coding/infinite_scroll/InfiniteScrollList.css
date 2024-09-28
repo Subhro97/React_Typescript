@@ -1,0 +1,22 @@
+.products_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid brown;
+  max-width: 800px;
+  height: 250px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding: 5px;
+}
+
+.product_item {
+  border: 1px solid brown;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}

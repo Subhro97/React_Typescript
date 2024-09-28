@@ -1,0 +1,100 @@
+.kanban_cont {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.kanban_cont form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.kanban_cont form label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.kanban_cont form input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid brown;
+  flex: 1;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.kanban_cont form button {
+  flex: 0.25;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: salmon;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.all_tasks {
+  display: flex;
+  gap: 10px;
+}
+
+.all_tasks .task_cont {
+  border: 1px solid brown;
+  border-radius: 5px;
+  padding: 10px;
+  flex: 1;
+}
+
+.all_tasks .task_cont h3 {
+  margin-bottom: 20px;
+}
+
+.task_cont .task_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task_cont .task_list .task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task_cont .task_list .task p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 94px;
+}
+
+.btn_cont {
+  display: flex;
+  gap: 5px;
+}
+
+.btn_cont button {
+  font-size: 15px;
+  border: none;
+  padding: 0 10px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn_cont button:hover {
+  background: whitesmoke;
+}
+
+.btn_cont button:disabled {
+  cursor: auto;
+  background-color: transparent;
+}
+
+.fallback_msg {
+  text-align: center;
+  font-size: 14px;
+  color: crimson;
+}
